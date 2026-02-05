@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustafa Engin Ozcan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="ascii-art">
+                .__   __                .__                                                          
+__  _  __ ____ |  |_/  |_  ______ ____ |  |__   _____   ___________________     ____ ___  ___ ____  
+\ \/ \/ // __ \|  |\   __\/  ___// ___\|  |  \ /     \_/ __ \_  __ \___   /   _/ __ \\  \/  // __ \ 
+ \     /\  ___/|  |_|  |  \___ \\  \___|   Y  \  Y Y  \  ___/|  | \//    /    \  ___/ >    <\  ___/ 
+  \/\_/  \___  >____/__| /____  >\___  >___|  /__|_|  /\___  >__|  /_____ \ /\ \___  >__/\_ \\___  >
+             \/               \/     \/     \/      \/     \/            \/ \/     \/      \/    \/ </div>
+            
+            <div class="name-row">
+                <h1 class="glitch">Mustafa Engin Ozcan</h1>
+                <div class="lang-toggle">
+                    <button onclick="setLang('tr')">TR</button>
+                    <button class="active" onclick="setLang('en')">EN</button>
+                </div>
+            </div>
+            <p class="subtitle" data-i18n="subtitle">aspiring cyber security analyst</p>
+            
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <span class="menu-icon">[=]</span> <span data-i18n="menu">menu</span>
+            </button>
+            <nav>
+                <a href="index.html" data-i18n="navHome">home</a>
+                <span class="separator">//</span>
+                <a href="about.html" data-i18n="navAbout">about</a>
+                <span class="separator">//</span>
+                <a href="projects.html" data-i18n="navProjects">projects</a>
+                <span class="separator">//</span>
+                <a href="https://medium.com/@ozcanmustafaengin" target="_blank" rel="noopener noreferrer" data-i18n="navBlog">blog</a>
+                <span class="separator">//</span>
+                <a href="contact.html" data-i18n="navContact">contact</a>
+            </nav>
+            
+            <div class="status">
+                <span class="status-dot"></span>
+                <span data-i18n="status">online • probably im learning new stuff rn</span>
+            </div>
+        </header>
+
+        <section id="home">
+            <img src="/assets/photo.jpeg" alt="Profil" class="profile-img">
+            
+            <div class="intro">
+                <p data-i18n="introP1">Hi, im Engin. You can find my content and projects here.</p>
+                <p style="margin-top: 15px;" data-i18n="introP2">And also my social media accounts below.</p>
+            </div>
+
+            <h2 data-i18n="socialTitle">social-links</h2>
+            <ul class="social-links">
+                <li><a href="https://tryhackme.com/p/weltschmerz" target="_blank" rel="noopener noreferrer">TryHackMe</a></li>
+                <li><a href="https://github.com/thengjn" target="_blank" rel="noopener noreferrer">github.com/thengjn</a></li>
+                <li><a href="https://linkedin.com/in/mustafa-engin-ozcan" target="_blank" rel="noopener noreferrer">linkedin.com/in/mustafa-engin-ozcan</a></li>
+                <li><a href="mailto:enginozcan636@proton.me">enginozcan636@proton.me</a></li>
+            </ul>
+        </section>
+
+        <section id="terminal-info">
+            <div class="terminal">
+                <div class="terminal-header">$ whoami</div>
+                <div class="terminal-line">
+                    <span class="terminal-prompt">></span>
+                    <span class="terminal-output" data-i18n="terminal1"> im working as a helpdesk intern at BNP Paribas Cardif</span>
+                </div>
+                <div class="terminal-line">
+                    <span class="terminal-prompt">></span>
+                    <span class="terminal-output" data-i18n="terminal2"> i love nature and animals</span>
+                </div>
+                <div class="terminal-line">
+                    <span class="terminal-prompt">></span>
+                    <span class="terminal-output" data-i18n="terminal3"> country rock fan</span>
+                </div>
+                <div class="terminal-line">
+                    <span class="terminal-prompt">></span>
+                    <span class="terminal-output" data-i18n="terminal4"> part time daytrader and algotrader</span>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p data-i18n="footer">© 2026 • thx to claude :3</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

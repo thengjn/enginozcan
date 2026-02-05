@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Mustafa Engin Ozcan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="ascii-art">
+                .__   __                .__                                                          
+__  _  __ ____ |  |_/  |_  ______ ____ |  |__   _____   ___________________     ____ ___  ___ ____  
+\ \/ \/ // __ \|  |\   __\/  ___// ___\|  |  \ /     \_/ __ \_  __ \___   /   _/ __ \\  \/  // __ \ 
+ \     /\  ___/|  |_|  |  \___ \\  \___|   Y  \  Y Y  \  ___/|  | \//    /    \  ___/ >    <\  ___/ 
+  \/\_/  \___  >____/__| /____  >\___  >___|  /__|_|  /\___  >__|  /_____ \ /\ \___  >__/\_ \\___  >
+             \/               \/     \/     \/      \/     \/            \/ \/     \/      \/    \/ </div>
+            
+            <div class="name-row">
+                <h1 class="glitch">Mustafa Engin Ozcan</h1>
+                <div class="lang-toggle">
+                    <button onclick="setLang('tr')">TR</button>
+                    <button class="active" onclick="setLang('en')">EN</button>
+                </div>
+            </div>
+            <p class="subtitle" data-i18n="subtitle">aspiring cyber security analyst</p>
+            
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <span class="menu-icon">[=]</span> <span data-i18n="menu">menu</span>
+            </button>
+            <nav>
+                <a href="index.html" data-i18n="navHome">home</a>
+                <span class="separator">//</span>
+                <a href="about.html" data-i18n="navAbout">about</a>
+                <span class="separator">//</span>
+                <a href="projects.html" data-i18n="navProjects">projects</a>
+                <span class="separator">//</span>
+                <a href="https://medium.com/@ozcanmustafaengin" target="_blank" rel="noopener noreferrer" data-i18n="navBlog">blog</a>
+                <span class="separator">//</span>
+                <a href="contact.html" data-i18n="navContact">contact</a>
+            </nav>
+            
+            <div class="status">
+                <span class="status-dot"></span>
+                <span data-i18n="status">online • probably im learning new stuff rn</span>
+            </div>
+        </header>
+
+        <section id="about">
+            <h2 data-i18n="aboutTitle">about-me</h2>
+            
+            <p class="about-text" data-i18n="aboutP1">
+                Currently i’m working as a Helpdesk Intern at a BNP Paribas Cardif, gaining hands-on experience in enterprise IT environments, user support, and system operations.</p>
+            
+            <p class="about-text" data-i18n="aboutP2">
+                In my free time, I solve CTFs on platforms like TryHackMe and HackTheBox, learning new security tools and reading some stuff about security. Im particularly interested in web application security, penetration testing and security architecture.
+            </p>
+            
+            <p class="about-text" data-i18n="aboutP3">
+                Outside of tech, I love nature, discovering new places, cats and scotch whisky. I enjoy listening to country rock music. I also do part-time daytrading and developing algorithmic trading strategies.
+            </p>
+            
+            <p class="about-text" data-i18n="aboutP4">
+                I love to learn new things and share my knowledge with others. Thats also the reason why i created this site. Yes, i made it with claude. For my detailed resume, you can check my linkedin profile.
+            </p>
+        </section>
+
+        <footer>
+            <p data-i18n="footer">© 2026 • thx to claude :3</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
