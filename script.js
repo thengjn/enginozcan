@@ -37,6 +37,15 @@ const translations = {
         projectDesc1: "Daytrader ve algotrader'lar için gelişmiş algoritmik trading backtesting platformu.",
         projectDesc2: "Bir araba bayiliği için veritabanı yönetim sistemi.",
         
+        // Experience
+        experienceTitle: "deneyim",
+        exp1Date: "2025 - Devam",
+        exp1Title: "Helpdesk Stajyeri",
+        exp1Desc: "Teknik destek sağlama, IT biletlerini yönetme ve kurumsal IT ortamlarında pratik deneyim kazanma.",
+        exp2Date: "2024",
+        exp2Title: "Yaz Stajı",
+        exp2Desc: "HTML, CSS, JavaScript ve Bootstrap kullanarak bir web sitesi tasarladım. Git/GitHub iş akışını ve proje yapısı geliştirmeyi öğrendim.",
+        
         // Contact page
         contactMessage: "Sunucu kiralayıncaya kadar bana aşağıdan ulaşabilirsiniz.",
         
@@ -79,6 +88,15 @@ const translations = {
         projectsTitle: "projects",
         projectDesc1: "Advanced algorithmic trading backtesting platform for daytraders and algotraders.",
         projectDesc2: "A database management system for a car dealership.",
+        
+        // Experience
+        experienceTitle: "experience",
+        exp1Date: "2025 - Present",
+        exp1Title: "Helpdesk Intern",
+        exp1Desc: "Providing technical support, managing IT tickets, and gaining hands-on experience in enterprise IT environments.",
+        exp2Date: "2024",
+        exp2Title: "Summer Intern",
+        exp2Desc: "Designed a website using HTML, CSS, JavaScript and Bootstrap. Learned Git/GitHub workflow and project structure development.",
         
         // Contact page
         contactMessage: "You can reach me below until I rent a server.",
